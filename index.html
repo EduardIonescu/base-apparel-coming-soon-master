@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Base Apparel coming soon page</title>
+	</head>
+	<body>
+		<main>
+			<img
+				src="./images/hero-desktop.jpg"
+				alt="hero image desktop"
+				class="desktop"
+				id="hero-image-desktop"
+			/>
+			<section>
+				<img
+					src="./images/bg-pattern-desktop.svg"
+					alt=""
+					aria-hidden="true"
+					class="background-pattern desktop"
+				/>
+				<div class="logo-container container">
+					<img
+						src="./images/logo.svg"
+						alt=""
+						aria-hidden="true"
+						id="logo"
+					/>
+				</div>
+				<img
+					src="./images/hero-mobile.jpg"
+					alt="hero image mobile"
+					id="hero-image-mobile"
+					class="mobile"
+				/>
+				<article class="container">
+					<h1 class="title">
+						<span class="title-left">We're</span>
+						<span class="title-right">coming soon</span>
+					</h1>
+					<p class="description">
+						Hello fellow shoppers! We're currently building our new
+						fashion store. Add your email below to stay up-to-date
+						with announcements and our launch deals.
+					</p>
+					<form action="">
+						<label for="email"></label>
+						<input
+							type="text"
+							name="email"
+							id="email"
+							placeholder="Email Address"
+							autocomplete="off"
+						/><button type="submit" id="submit-button">
+							<img
+								src="./images/icon-arrow.svg"
+								alt=""
+								aria-hidden="true"
+							/>
+						</button>
+						<p class="error-text">Please provide a valid email</p>
+					</form>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
+<script src="./script.js"></script>
